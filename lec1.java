@@ -82,3 +82,6 @@ public class lec1 {
        
     }
 }
+// rotate arrey
+// inverse arrey
+// reverse arrey
