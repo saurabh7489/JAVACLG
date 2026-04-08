@@ -1,7 +1,10 @@
+import java.util.Scanner;
+
 public class spiral {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
         
-        int=0;
+        int top=0;
         int bottom=arr.length-1;
         int left =0;
         int right = arr [0].length-1;
