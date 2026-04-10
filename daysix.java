@@ -31,17 +31,48 @@
 //     }
 // }
 
+// public class daysix {
+
+//     public static void main(String[] args) {
+//         String str1="a023rurh4938";
+//         char max='0';
+//         for(int i=0;i<str1.length();i++){
+//             char ch = str1.charAt(i);
+//             if(ch >='0'&& ch<='9'&&ch>max){
+//             max=ch;
+//             }
+//         }
+//         System.out.println(max);
+//     }
+// }
+
+// public class daysix {
+
+//     public static void main(String[] args) {
+//         String str1="aaabbbgggeeeyy";
+//         String result ="";
+//         result+=str1.charAt(0);
+//         for(int i=0;i<str1.length();i++){
+//             if(str1.charAt(i)!= str1.charAt(i-1)){
+//                 result+= str1.charAt(i);
+//             }
+//         }
+//         System.out.println(result);
+//     }
+// }
+
 public class daysix {
 
     public static void main(String[] args) {
-        String str1="a023rurh4938";
-        char max='0';
-        for(int i=0;i<str1.length();i++){
-            char ch = str1.charAt(i);
-            if(ch >='0'&& ch<='9'&&ch>max){
-            max=ch;
-            }
-        }
-        System.out.println(max);
+        String str1="123abfsd";
+    boolean isNum = true;
+    for(int i=0;i<str1.length();i++){
+    if(str1.charAt(i)<'0'|| str1.charAt(i)>'9'){
+        
+        isNum =false;
+        break;
     }
+}
+    System.out.println(isNum);
+}
 }
