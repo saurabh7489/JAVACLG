@@ -61,18 +61,35 @@
 //     }
 // }
 
+// public class daysix {
+
+//     public static void main(String[] args) {
+//         String str1="123abfsd";
+//     boolean isNum = true;
+//     for(int i=0;i<str1.length();i++){
+//     if(str1.charAt(i)<'0'|| str1.charAt(i)>'9'){
+        
+//         isNum =false;
+//         break;
+//     }
+// }
+//     System.out.println(isNum);
+// }
+// }
+import javax.swing.table.TableCellEditor;;
 public class daysix {
+    static int fact(int n)
+{
+   
+   if(n==1){
+    return 1; }
+    return n* fact(n-1);
+}
+
+   
 
     public static void main(String[] args) {
-        String str1="123abfsd";
-    boolean isNum = true;
-    for(int i=0;i<str1.length();i++){
-    if(str1.charAt(i)<'0'|| str1.charAt(i)>'9'){
         
-        isNum =false;
-        break;
+        System.out.println(fact(3));
     }
-}
-    System.out.println(isNum);
-}
 }

@@ -1,0 +1,1 @@
+count=count+ (1+countzero(n%10));
