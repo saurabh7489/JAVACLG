@@ -117,21 +117,46 @@
 //         System.out.println(even(arr, i));
 //     }
 // }
-public class dayseven {
-static int swap(int[] arr,int key,int i){
-    if(i==arr.length) return 0;
-    if(arr[i]==key)
-        arr[i]=5;
+// public class dayseven {
+// static int swap(int[] arr,int key,int i){
+//     if(i==arr.length) return 0;
+//     if(arr[i]==key)
+//         arr[i]=5;
     
-   swap(arr,key, i+1);
+//    swap(arr,key, i+1);
 
-}
+// }
+//     public static void main(String[] args) {
+//         int[] arr={1,2,2,4,2,6,7};
+//        int key=2;
+//         int i=0;
+//         swap(arr, key, i);
+//         for(int j=0;j<arr.length;j++);
+//         System.out.println(swap(arr, key, i));
+//     }
+// }
+
+// public class dayseven {
+//  static int voval(String str,int i){
+//   if(i==str.length()) return 0;
+//   char ch=str.charAt(i);
+//   int count = (ch=='a'|| ch=='e'|| ch=='i' || ch=='o'|| ch=='u')?1:0;
+//   return count + voval(str, i+1);
+//  }
+//     public static void main(String[] args) {
+//         String str="hello";
+//         int i=0;
+//         System.out.println(voval(str, i));
+//     }
+
+
+public class dayseven {
+ static int uppercase(String str,int i){
+if(i==str.length()) return 0;
+ }
     public static void main(String[] args) {
-        int[] arr={1,2,2,4,2,6,7};
-       int key=2;
+        String str="hello";
         int i=0;
-        swap(arr,key,i);
-        for(int j=0;j<arr.length;j++);
-        System.out.println(swap(arr, key, i));
+        System.out.println(uppercase(str, i));
     }
 }
