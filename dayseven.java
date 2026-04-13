@@ -60,15 +60,78 @@
 //     }
 // }
 
-public class dayseven {
-static int sumarr(int[] arr,int i){
+// public class dayseven {
+// static int sumarr(int[] arr,int i){
 
-if(i==arr.length) return 0;
-return arr[i]+sumarr(arr, i+1);
+// if(i==arr.length) return 0;
+// return arr[i]+sumarr(arr, i+1);
+// }
+//     public static void main(String[] args) {
+//     int[] arr={0,1,2,3};
+//     int i=0;
+//     System.out.println(sumarr(arr, i));
+//     }
+// }
+
+// public class dayseven {
+//  static int countoccur(int[] arr ,int i,int key){
+//     if(i==arr.length) return 0;
+//     int count=(arr[i]==key)?1:0;
+//     return count+countoccur(arr,i+1,key);
+
+//  }
+//     public static void main(String[] args) {
+//         int [] arr={1,2,2,4,2,6,7};
+//         int key = 2;
+//         int i = 0;
+//         System.out.println(countoccur(arr, i, key));
+//     }
+// }
+
+// public class dayseven {
+// static boolean presentornot(int[] arr,int key,int i){
+//     if(i==arr.length) return false;
+//     if(arr[i]==key) return true;
+//     return presentornot(arr, key, i+1);
+
+// }
+//     public static void main(String[] args) {
+//         int[] arr={1,2,2,4,2,6,7};
+//         int key=2;
+//         int i=0;
+//         System.out.println(presentornot(arr, key, i));
+//     }
+// }
+
+// public class dayseven {
+// static boolean even(int[] arr,int i){
+//     if(i==arr.length) return false;
+//     if(arr[i]%2==0) return true;
+//     return even(arr, i+1);
+
+// }
+//     public static void main(String[] args) {
+//         int[] arr={1,2,2,4,2,6,7};
+       
+//         int i=0;
+//         System.out.println(even(arr, i));
+//     }
+// }
+public class dayseven {
+static int swap(int[] arr,int key,int i){
+    if(i==arr.length) return 0;
+    if(arr[i]==key)
+        arr[i]=5;
+    
+   swap(arr,key, i+1);
+
 }
     public static void main(String[] args) {
-    int[] arr={0,1,2,3};
-    int i=0;
-    System.out.println(sumarr(arr, i));
+        int[] arr={1,2,2,4,2,6,7};
+       int key=2;
+        int i=0;
+        swap(arr,key,i);
+        for(int j=0;j<arr.length;j++);
+        System.out.println(swap(arr, key, i));
     }
 }
