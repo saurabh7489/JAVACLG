@@ -149,14 +149,23 @@
 //         System.out.println(voval(str, i));
 //     }
 
+//
+//public class dayseven {
+// static int uppercase(String str,int i){
+//if(i==str.length()) return 0;
+// }
+//    public static void main(String[] args) {
+//        String str="hello";
+ //       int i=0;
+//        System.out.println(uppercase(str, i));
+//    }
+//}
 
-public class dayseven {
- static int uppercase(String str,int i){
-if(i==str.length()) return 0;
- }
-    public static void main(String[] args) {
-        String str="hello";
-        int i=0;
-        System.out.println(uppercase(str, i));
-    }
+public class dayseven{
+
+public static int main(String str,int i){
+int a=5;
+int b=5;
+System.out.println(a+b)
+}
 }
