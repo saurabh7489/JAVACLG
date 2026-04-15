@@ -163,7 +163,7 @@
 
 public class dayseven{
 
-public static int main(String str,int i){
+public static int main(String[] args){
 int a=5;
 int b=5;
 System.out.println(a+b)
